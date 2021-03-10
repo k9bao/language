@@ -1,0 +1,10 @@
+{
+    "Name": "test",
+    "Age": 0,
+    "Time": "0001-01-01T00:00:00Z",
+    "Dur": 0,
+    "Contain": {
+        "Test1": ""
+    },
+    "ListStr": null
+}

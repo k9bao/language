@@ -1,0 +1,5 @@
+file(GLOB test_main_SRCS *_test.cpp)
+add_executable(gtest test.cpp ${test_main_SRCS})
+target_include_directories(gtest INTERFACE . googlebenchmark_SOURCE_DIR)
+find_package(googlebenchmark REQUIRED)
+target_link_libraries(gtest benchmark::benchmark)
